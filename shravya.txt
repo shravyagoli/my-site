@@ -1,0 +1,33 @@
+<!--
+my name is shravyagoli
+email address is shravyagoli2611@gmail.com
+student at UMASS lowell , undergraduate student in course 91.61 GUI Programming 
+i created this page on september 10 2016
+my web page shows my profile and consists data about me and used for my future assignment
+-->
+<!Doctype html>
+<html>
+<head>
+
+<title>profile</title> <!--used for the title of the page,it dispalys on the tab bar-->
+</head>
+<body style="background-color:powderblue;"> <!--used to set the background colour of the webpage-->
+<h1>
+<center>MY PROFILE</center> <!--used to set the name in the middle of the page-->
+</h1>
+<p>
+<img src="shr.jpg" alt="" style="float:right;width:200px;height:500px;"> <!-- this tag is used to add image and set its size and width , height-->
+Hello everyone my name is <b>shravyagoli</b>.I am from <a href="https://en.wikipedia.org/wiki/Warangal"><!--this tag is used as link between two pages, it acts as connection between two webpages--> warangalDistrict</a>, Telangana state, country <a href="https://en.wikipedia.org/wiki/India">INDIA.</a> I am an undergraduate transfer student from <a href="http://www.sriit.ac.in/">SRIIT</a><br><!--used to end the sentence and starts new sentence in next line--> where i have studied 3 years of my Bachelor's in SRIIT India and transfered to UMASS lowell, MA for 4<sup>rth</sup> year as well as yr of Masters. It is known as 5 years Integrated course.My major is Computer Science<br>
+
+<h2>
+MY FAMILY
+</h2>
+My father name is Ravinder goli. He is a contractor in India.My mother name is Vakuladevi goli. She is a housemaker.I am the oldest and i have two younger sisters.Among them, the elder sister name is Navya goli and younger sister name is Pooja goli.<br>
+<img src="pooja.JPG" alt="" style="float:center;width:200px;height:300;">
+<br>
+<a href="AboutMe.html">AboutMe</a>
+<br>
+<a href="assign.html">Assingments</a>
+</p>  
+</body>
+</html>

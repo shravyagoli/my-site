@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+<head>
+<title>Myself</title>
+</head>
+<body style="background-color:Aqua;">
+<h1>Assignments</h1>
+<table><!-- table tag is used to create table in webpage-->
+<tr><!-- table row tag used to create row for the table-->
+<th> no of assigns</th><!--this tag is table head which is used to define head on the row--> 
+<th>firstname</th>
+<th>lastname</th>
+</tr>
+<tr>
+<th>.</th>
+<th>shravya</th>
+<th>goli</th>
+</tr>
+<tr>
+<th>A1</th>
+</tr>
+<tr>
+<th>A2</th>
+</tr>
+<tr>
+<th>A3</th>
+</tr>
+</table>
+</body>
+</html>
