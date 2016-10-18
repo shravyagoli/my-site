@@ -1,0 +1,83 @@
+/*this tag used to visible on page what we give in this*/
+body
+{
+    /*used to give the image to background*/
+    background-image: url("softlight.png");
+    /*used as the browser handling of windows*/
+     min-width: 1000px;
+    /*used as the browser handling of windows*/
+    max-width: 2000px;
+}
+/*this is used as a division in html*/
+#wrapper
+{
+    background-image: url("light.jpe");
+    /*margins are used to create the space around the elements and space outside the border*/
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    /*this is used for the bachground image to not repeat*/
+    background-repeat: no-repeat;
+    /*this is used as the background to set over the screen*/
+    background-size: cover;
+    
+    
+}
+h1{
+    /*used as the color for the heading h1*/
+    color:whitesmoke;
+    background-image: url("shade.png");
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+     background-size: cover;
+}
+h2{
+    color:darkgreen;
+    
+}
+h2
+{
+    /*specifies the position of the element*/
+    position:absolute;
+    top:60px;
+    right:60px;
+     max-width: 140px;
+     min-width:100px;
+    position:fixed;
+   
+}
+select
+    {
+        /*specifies the position of the element*/
+    position:absolute;
+        /*to set the position at the top*/ 
+    top:110px;
+    right:60px;
+    max-width: 120px;
+    min-width:60px;
+        position: fixed;
+   
+}
+#footer img{
+    display: block;
+    margin: 0 auto;
+    width:5%;
+    margin-top: -80px;
+    max-width: 30px;
+        min-width:30px;
+   
+}
+#footer a{
+    /*used to align the image in center*/
+    text-align: center;
+    /*padding used for the space between the elements*/
+    padding-left: 650px;
+    /*used to remove the underline of a link*/
+    text-decoration: none;
+    color: aqua;
+     max-width: 10px;
+        min-width:10px;
+    
+}
