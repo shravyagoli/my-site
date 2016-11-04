@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>homework6</title>
+    <link  rel="stylesheet" href="cs06.css">
+	</head>
+	<body>
+	<h1>Assignment 6</h1>
+	<div class="ContentBox">
+	<p>
+	Enter the values for Multiplication
+	</p>
+	
+	<p>
+	<form>
+	
+	<!-- table  starts-->
+	<table>
+	<tr>
+	<td></td>
+	<td></td>
+	<td colspan="3">Top row values:<br></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td></td>
+	<td><input type="text" id="HorizonalStartTextBox" name="HorizonalStartTextBox" class="LimitsTextBox" size="3"></td>
+	<td>to</td>
+	<td><input type="text" id="HorizonalEndTextBox" name="HorizonalEndTextBox" class="LimitsTextBox" size="3"><br></td>
+	</tr>
+	<tr>
+	<!-- The CSS for the vertical text is implemented here instead of
+	in a CSS file because the top property's value depends on the text
+	used, thus it is content-related (until writing-mode is supported). -->
+	<td rowspan="3" style="min-width: 1.1em; position: relative"><div style="transform: rotate(-90deg); transform-origin: 0% 0%; position: absolute; top: 6em;">Left&nbsp;column&nbsp;values</div></td>
+	<td><input type="text" id="VerticalStartTextBox" name="VerticalStartTextBox" class="LimitsTextBox" size="3"></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	
+	</tr>
+	<tr>
+	<td style="text-align: center;">to</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td><input type="text" id="VerticalEndTextBox" name="VerticalEndTextBox" class="LimitsTextBox" size="3"></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+	</table>
+	<br>
+	</form>
+	
+	
+	</div>
+	
+	<!-- The generated table is inserted here -->
+	<div id ="content" class="ContentBox" style="display:none">
+	</div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+        <script src="example.js"></script>
+
+	</body>
+	</html>

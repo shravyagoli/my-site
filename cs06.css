@@ -1,0 +1,41 @@
+body 
+{
+  background-color:blue;
+  font-family: 'Cabin', sans-serif;
+  margin-top: 20px;
+  color: white;
+}
+
+h1
+{
+  color:green;
+  text-align:center;
+  font-weight: bold;
+  margin: .67em 0;
+  font-size: 2px;
+}
+
+h2
+{
+  text-align:center;
+  font-weight: bold;
+  margin: .67em 0;
+  font-size: 2px;
+}
+.darkShadedTable
+{
+  border-collapse: collapse;
+}
+
+.darkShadedTable th
+{
+ min-width: 2em;
+ height: 2em;    /* CSS doesn't like min-height in tables */
+}
+.darkShadedTable th, .darkShadedTable td
+{
+  text-align: center;
+  border: 1px solid #888;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
