@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- My CSS -->
+        <link type="text/css" rel="stylesheet" href="hw7.css">
+        <!-- Required CSS -->
+        
+        <!--                                                                                                                                                           
+            Name: Shravya goli                                                                                                                              
+            Contact:shravya_goli@student.uml.edu                                                                                                                     
+            Major: Computer Science   
+            
+             GUI programming 1 assignment-7                                                                  
+            School: University of Massachusetts Lowell                                               
+
+             Date Created: November 15th 2016
+                           
+        -->
+         <title>Assignment 7 - Sarjith Rao Gona</title>
+</head>
+<!-- body starts here-->
+
+<body class="main">
+        <h1 class="center">ASSIGNMENT-7</h1>
+
+        <h2>Dynamic Multiplication Table</h2>
+
+        <div id="tabs">
+            <!-- unordered lists-->
+            <ul>
+                <li><a href="#tabs-1">Multiplication Table</a> </li>
+            </ul>
+            <div id="tabs-1">
+               <!-- creating form to give four input values to form multiplication table-->
+                <form id="mulTab" > 
+                    <p>Horizonal Rows</p>
+                    <p>Minimum Range: <input type="text" size="5" value="" id="rowSt" name="rowSt"/></p>
+                    <div id="input1"></div>
+                    
+                    <p>Maximum Range: <input type="text" size="5" value="" id="rowEn" name="rowEn"/></p>
+                    <div id="input2"></div>
+                    
+                    <p>Vertical Columns</p>
+                    <p>Minimum Range:<input type="text" size="5" value="" id="colSt" name="colSt"/></p>
+                    <div id="input3"></div>
+
+                    <p>Maximum Range: <input type="text" size="5" value="" id="colEn" name="colEn"/></p>
+                    <div id="input4"></div>
+                    
+                    <input type="submit" id="submit" value="submit" />
+                    
+                </form>
+                
+                
+                
+
+            </div>
+        </div>
+        <!--  Footer -->
+        <div class="clearfooter"></div>
+        <div id="footer"> Note: Tabs are displayed as: Parameter(Row Start, Row End, Column Start, Column End)</div>
+    <!--jquery java script -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="jquery.validate.js"></script>
+        <script src="jquery-ui.js"></script>
+        <script src='hw7.js'></script>
+
+         </body>
+</html>
