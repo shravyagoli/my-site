@@ -116,7 +116,7 @@ p {
 .complete a {display:block;}
 
 .favorite {
-  background-image: url('../images/icon-heart.png');
+  background-image: url('icon-heart.png');
   background-position: right, center;
   background-repeat: no-repeat;}
 
