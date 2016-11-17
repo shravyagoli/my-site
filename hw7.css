@@ -21,7 +21,13 @@ h1 {
     border: 5px solid black;
     border-radius: 25px;
 }
-
+h1 {
+    color:red;
+    font-size: 50px;
+    font-family: sans-serif;
+    border: 5px solid black;
+border-radius: 25px;
+}
 html, body {
     background-color:darkseagreen;
     font-family: 'Josefins Sans', sans-serif;
