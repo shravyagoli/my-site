@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- My CSS -->
+        
+        <!-- Required CSS -->
+        
+        <link type="text/css" rel="stylesheet" href="hw8.css">
+        
+         <link rel="stylesheet" type="text/css"
+        href="http://fonts.googleapis.com/css?family=Advent+Pro%7CBangers%7CSlackey%7CSigmar+One%7CRighteous%7CUbuntu">
+
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+  <!-- jQuery UI Theme -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/dark-hive/jquery-ui.min.css">
+        
+        <!--                                                                                                 
+
+            Name: shravya goli                                                                                                                                      
+            Contact:shravya-goli@student.uml.edu                                                                                                                     
+            Major: Computer Science   
+            
+             GUI programming 1 assignment-8                                                                  
+            School: University of Massachusetts Lowell                                               
+
+             Date Created: November 22 2016
+                           
+        -->
+         <title>homework8</title>
+</head>
+
+
+<body class="main">
+        <h1 class="center">ASSIGNMENT8</h1>
+
+        <h2>Dynamic Multiplication Table</h2>
+    <div class="row">
+      <div class="col-md-1"></div>
+<div class="col-md-5">
+        <!-- Form to take user input.
+        I used the following site for help with the form:
+        http://www.w3schools.com/html/html_forms.asp
+
+        I also used this stackoverflow post for the onsubmit:
+        https://stackoverflow.com/questions/13143932/submit-html-form-perform-javascript-function-alert-then-redirect
+
+        This link was helpful for centering the form using CSS:
+        https://stackoverflow.com/questions/9737394/html-how-to-center-align-a-form -->
+        <div class="highlight_centered_margins">
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Multiplication Table</a> </li>
+            </ul>
+            <div id="tabs-1">
+               <!-- creating form to give four input values to form multiplication table-->
+                 <form id="mulTab" > 
+                    <p>Horizonal Rows</p>
+                    <p>Minimum Range: <input type="text" size="5" value="0" id="rowSt" name="rowSt"/></p>
+                    <div id="input1"></div>
+                    
+                    <p>Maximum Range: <input type="text" size="5" value="0" id="rowEn" name="rowEn"/></p>
+                    <div id="input2"></div>
+                    
+                    <p>Vertical Columns</p>
+                    <p>Minimum Range:<input type="text" size="5" value="0" id="colSt" name="colSt"/></p>
+                    <div id="input3"></div>
+
+                    <p>Maximum Range: <input type="text" size="5" value="0" id="colEn" name="colEn"/></p>
+                    <div id="input4"></div>
+                    
+                    <input type="submit" id="submit" value="submit" />
+                    
+                </form>
+
+
+                <p><button id="selected_tabs">Remove selected tabs</button></p>
+                <div id="check"></div>
+                <button id="remove_tabs">Remove all tabs</button>
+                
+
+            </div>
+        </div>
+            </div>
+      </div>
+    <!-- SECOND COLUMN: CURRENT MULTIPLICATION TABLE -->
+      <div class="col-md-5">
+        <!-- The CURRENT multiplication table will appear in this div -->
+        <div id="multiplication_table"></div>
+      </div>
+    <div class="col-md-1"></div>
+    </div>
+    
+        <!--  Footer -->
+        <div class="clearfooter"></div>
+    
+    
+        <div id="footer"> Note: Tabs are displayed as: Parameter(Row Start, Row End, Column Start, Column End)</div>
+    <!--jquery java script -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="jquery.validate.js"></script>
+        <script src="jquery-ui.js"></script>
+        <script src='hw8.js'></script>
+
+         </body>
+</html>
