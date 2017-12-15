@@ -1,6 +1,6 @@
 /*                                                                                                                                                         
- Name: Sarjith Rao Gona                                                                                                                                       
- Contact: sarjithrao_gona@student.uml.edu                                                                                                                     
+ Name: Shravya Goli                                                                                                                                       
+ Contact: shravya_goli@student.uml.edu                                                                                                                     
  Major: Computer Science                                                                             GUI programming 1 assignment-7
  
  Date Created: November 15th 2016                                
